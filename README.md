@@ -1,6 +1,14 @@
 # sunzi-business-skill
 孙子兵法商业智慧助手技能
 
+## 技能安装
+```
+linux安装
+git clone https://github.com/zqz365001/sunzi-business-skill.git ~/.claude/skills/sunzi-business-skill && rm -rf ~/.claude/skills/sunzi-business-skill/sunzi-business-skill
+
+windows安装
+git clone https://github.com/zqz365001/sunzi-business-skill.git "%USERPROFILE%\.claude\skills\sunzi-business-skill" && rmdir /s /q "%USERPROFILE%\.claude\skills\sunzi-business-skill\sunzi-business-skill" 2>nul
+```
 
 ## 技能包结构
 ```
@@ -8,7 +16,7 @@
 ├── SKILL.md              # 主技能文件 (~500行)
 ├── QUICKSTART.md         # 快速入门
 ├── references/
-│   ├── full-text.md     # 孙子兵法全文 (139页OCR)
+│   ├── full-text.md     # 孙子兵法全文 
 │   └── business-cases.md # 18个商业案例
 └── scripts/
     └── strategy-analyzer.py  # 战略分析脚本
