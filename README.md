@@ -3,7 +3,7 @@
 
 
 技能包结构
-
+```
 ~/Projects/sunzi-business-skill/
 ├── SKILL.md              # 主技能文件 (~500行)
 ├── QUICKSTART.md         # 快速入门
@@ -12,6 +12,7 @@
 │   └── business-cases.md # 18个商业案例
 └── scripts/
     └── strategy-analyzer.py  # 战略分析脚本
+```
 
 ───
 🎯 核心功能
